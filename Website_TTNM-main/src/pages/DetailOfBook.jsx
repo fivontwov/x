@@ -1,7 +1,8 @@
 import React from "react";
 import "./detail.css";
-import TextToSpeech from "./TextToSpeech";
 import { useState, useEffect } from "react";
+import AudioButton from "../components/BookAudioButton";
+
 export default function DetailOfBook() {
   // const single_book = useSelector((state) => state.book.individual_book);
   // console.log(single_book);
@@ -180,7 +181,12 @@ export default function DetailOfBook() {
 
           <script>text = document.getElementById("x").innerHTML;</script>
           <br></br>
+          <div>
+            <AudioButton />
+            {/* ... other content ... */}
+          </div>
           <br></br>
+
           <p text={text} />
 
           <p>{text}</p>

@@ -18,7 +18,7 @@ import Sports from "./pages/Sports";
 import Education from "./pages/Education";
 import Books from "./pages/Books";
 import Radio from "./pages/Radio";
-import DetailOfBook from "./pages/details of book page/DetailOfBook";
+import DetailOfBook from "./pages/DetailOfBook";
 // import AllBooks from "./pages/All Books/AllBooks";
 const router = createBrowserRouter(
   createRoutesFromElements(
